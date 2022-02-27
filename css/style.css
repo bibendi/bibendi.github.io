@@ -2,7 +2,7 @@
 ------------------------------------
   Civic - CV Resume
   Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 /*----------------------------------------*/
@@ -68,7 +68,7 @@ ol {
 -----------------------*/
 .spad {
 	padding-top: 125px;
-	padding-bottom: 110px;
+	padding-bottom: 80px;
 }
 
 .section-title h2 {
@@ -409,8 +409,16 @@ ol {
 	line-height: 1.3;
 }
 
-.hero-info h2 {
+.hero-info .quote {
 	margin-bottom: 30px;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.hero-info .quote-author {
+	font-weight: bold;
+	text-align: right;
+	font-style: italic;
 }
 
 .hero-info ul {
